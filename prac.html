@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter Web Portal</title>
+    <link rel="stylesheet" href="prac.css">
+</head>
+
+<body>
+    <img id="photo_back" src="photo2.jpg">
+    <div class="box">
+        <h1 id="currency_Heading">Currency Converter</h1>
+        <div class="input-group">
+            <input type="number" id="amount" placeholder="Enter amount">
+            <select id="input">
+                <option value="INR">INR</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+
+            </select>
+            <h3 id="to_ide">To</h3>
+            <select id="out">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="INR">INR</option>
+            </select>
+            <br>
+            <button id="butt" onclick="convertCurrency()">Convert</button>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <script src="prac.js"></script>
+</body>
+
+</html>
